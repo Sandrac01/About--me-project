@@ -50,6 +50,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+
 }
 
 .secondary-link {
@@ -114,9 +115,12 @@ p {
 justify-content: center;
 font-size: 18px;
 }
-.primary-link, .secondary-link, .homepage-link {
+.secondary-link, .homepage-link {
     justify-content: center;
 }
 
-
+.primary-link {
+    justify-content: center;
+    padding: 15px 10px;
+}
 }

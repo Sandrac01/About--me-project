@@ -16,6 +16,7 @@ h3 {
 
 h1 {
   font-size: 96px;
+  
 }
 
 h2 {
@@ -52,6 +53,36 @@ p {
   color: white;
 
 }
+.yogurt-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.weather-link {
+border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.yoga-link {
+border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+
+
 
 .secondary-link {
   border-radius: 4px;
@@ -82,15 +113,13 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  text-align: center;
 }
 
 .email-link:hover {
   text-decoration: underline;
 }
 @media (max-width: 576px) {
-    body {
-        text-align: center;
-    }
 
 h1 {
     text-align: center;
@@ -104,10 +133,7 @@ h3 {
     text-align: center;
     font-size: 18px;
 }
-p {
-    text-align: center;
-    font-size: 14px;
-}
+
 .navigation-links a {
     justify-content: center;
 }
@@ -115,12 +141,23 @@ p {
 justify-content: center;
 font-size: 18px;
 }
-.secondary-link, .homepage-link {
-    justify-content: center;
+.yoga-link {
+display: block;
+text-align: center;
+margin: 0 18px;
+}
+.weather-link {
+  display: block;
+  text-align: center;
+  margin: 0 18px;
+}
+.yogurt-link {
+  display: block;
+  text-align: center;
+  margin: 0 18px;
+}
 }
 
-.primary-link {
-    justify-content: center;
-    padding: 15px 10px;
-}
-}
+
+
+
